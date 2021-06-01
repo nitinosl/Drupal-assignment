@@ -1,0 +1,15 @@
+name: mysite
+type: theme
+description: This is a mysite theme
+core: 8.x
+base theme: bootstrap 
+logo: mylogo.png
+
+libraries:
+  - mysite/global
+
+regions:
+  header: Header
+  content: Content
+  footer: Footer  
+  

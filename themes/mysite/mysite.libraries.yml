@@ -1,0 +1,28 @@
+global:
+  css:
+    component:
+      css/style.css: {}
+
+
+  js:
+    js/mysite.js: {}
+    js/slick.js: {}
+  dependencies:
+    - bootstrap/jquery
+    
+  mysite:
+  version: 1.x
+  header: true
+  js:
+    js/mysite.js: {}  
+    
+slick:
+  css:
+    theme:
+      css/slick.css: {}
+      css/slick-theme.css: {}
+      css.custom.css: {}
+  js:
+    js/slick.min.js: {}
+    js/custom.js: {}
+ 
